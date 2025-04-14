@@ -3,7 +3,7 @@
     
 }
 .home{
-    background:white url(./assets/bgMobile2.png) scroll ;
+    background: url(./assets/bgMobile2.png) scroll ;
     background-repeat: no-repeat;
     background-size: cover;
     min-height: 100vh;
@@ -15,7 +15,8 @@
 .image h1{
     flex-direction: column-reverse;
 }
-@media (max-width:568px) {
+@media (max-width:500px) {
+    
     .home .form-group{
         display: flex;
         justify-content: center;
@@ -29,9 +30,13 @@
         display: block;
     }
 }
-ul li a :active{
-    color:red !important;
+ul li a:hover {
+    color:rgb(97, 214, 39) !important;
+    font-size:27px !important;
+    font-family: cursive;
+
 }
+
 .search-box{
     height: 40px;
     width:30px;
